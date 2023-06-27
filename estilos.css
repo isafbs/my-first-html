@@ -1,0 +1,36 @@
+body
+{
+    background-color: bisque;
+    color: brown;
+    font-family: 'Poppins', sans-serif;}
+/*Esto es un comentario*/
+
+h3 {
+    color: black;
+    font-size: 25px;
+}
+h1, p{
+    color: darkblue;
+}
+img {
+   /* width: 580px;
+    height: 400px; */
+    border-style: solid;
+    border-color: brown;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+/*esto es utilizando la clase, lo que significa editar un solo objeto por separado, y no por el elemento, en este caso las imagenes*/
+.img1{
+    width: 500px;
+    height: 350px;
+
+}
+.img2{
+    width: 300px;
+    height: 200px;
+}
+a, footer{
+    color: blueviolet;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Página de perritos</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,900;1,100;1,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Página de perritos</h1>
+
+        <h3>Imágenes de perritos</h3>
+
+        <!--Imagen desde internet-->
+        <img class="img1" src="https://www.rover.com/blog/wp-content/uploads/2018/11/yorkshireterrier.jpg">
+        <br>
+        <!--Imagen desde mis archivos-->
+        <img class="img2" src="imagenes/yorkie puppies.jpg">
+
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver mas imágenes de perritos, <a href="https://www.google.com/search?q=puppies&sxsrf=APwXEdfuEdq2F51v9D2SE-BDoskvmWi8gQ:1685410318705&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1nOPa8pv_AhVAM0QIHUl7B3MQ_AUoAXoECAIQAw&biw=958&bih=923&dpr=1" target="_blank">da click a este enlace</a>.</p>
+
+        <h3>Listas de perritos</h3>
+        <p>Top 3 cosas que <strong>aman</strong> los perritos:</p>
+        <ol>
+            <li>Correr</li>
+            <li>Jugar</li>
+            <li>Cariñitos</li>
+        </ol>
+
+        <p>Top 3 cosas que <i>odian</i> los perritos </p>
+        <ul>
+            <li>Gatos</li>
+            <li>Cuetes</li>
+            <li>Baños</li>
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <!--Form con botones de radio-->
+            <p>¿Tu perrito es cachorro o adulto?</p>
+            <label>
+                <input 
+                id="Cachorro" 
+                type="radio" 
+                value="Cachorro" 
+                name="cachorro-adulto" checked> Cachorro
+            </label>
+            <br> <!--Nueva linea-->
+            <label>
+                <input 
+                id="Adulto" 
+                type="radio" 
+                value="Adulto" 
+                name="cachorro-adulto"> Adulto
+            </label>
+
+            <!--Form con casillas de verificación-->
+            <p>¿Qué características tiene tu perrito?</p>
+            <label>
+                <input 
+                id="jugueton" 
+                type="checkbox"
+                value="jugueton"
+                name="caracteristicas" checked> Juguetón 
+            </label>
+            <br>
+            <label>
+                <input 
+                id="agresivx" 
+                type="checkbox"
+                value="agresivx"
+                name="caracteristicas" > Agresivx 
+            </label>
+            <br>
+            <label>
+                <input 
+                id="timidx" 
+                type="checkbox"
+                value="timidx"
+                name="caracteristicas"> Tímidx 
+            </label>
+        </form>
+    </body>
+   
+    <footer>
+        <p><small>Esta página fue creada por Isabella Bobadilla durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+
+</html>
